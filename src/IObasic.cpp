@@ -11,8 +11,8 @@ using namespace std;
 
 
 IObasic::IObasic(string entrada,string saida){
-	is.open("entradagigante",fstream::in); 
-	final.open("saida",fstream::out);
+	is.open(entrada,fstream::in); 
+	final.open(saida,fstream::out);
 }
 
 bool IObasic::is_empted(){

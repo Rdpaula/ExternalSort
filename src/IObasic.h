@@ -10,9 +10,9 @@ using namespace std;
 #pragma once
 
 struct IObasic{
-	int sz = 100000000;
-	int sz2 = 10000000;
-	char buf[100000000];
+	const static int sz = 10000000;
+	const static int sz2 = 1000000;
+	char buf[10000000];
 	char bfsaida[10000000];
 	int posbfsaidad = 0;
 	int pos[11];

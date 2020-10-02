@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS = -std=c++14
+CFLAGS = -std=c++14 -Wshadow -Wall -g -fsanitize=address -fsanitize=undefined -D_GLIBCXX_DEBUG
 
 DEPS = src/*.h
 
